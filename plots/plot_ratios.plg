@@ -1,0 +1,22 @@
+set terminal pdfcairo size 3.75,2.25 font 'Helvetica,12'
+set mono
+set output
+
+#Changing I/O Ratio
+set title "Effect of Changing Execution to I/O Ratio"
+
+set ylabel "Capacity (Number of Workers)"
+set xlabel "Ratio of Constant Execution Time to Variable I/O Time"
+set key top left
+
+set yrange [0.1:]
+set xrange [0.002:]
+set xtics ("1/500" 0.002,"1/100" 0.01,"1/50" 0.02,"1/25" 0.04,"1/10" 0.1,1,10,25,50,100,500)
+set xtics rotate by -90
+
+set logscale xy
+
+#plot './ratios/model_run.dat' using 2:4 title "Expected Capacity" with linespoints,\
+#     '' u 2:5 title "Measured Capacity" with linespoints
+plot './ratios/model_run.dat' using ($1 / $2):4 title "Expected Capacity" with linespoints,\
+     '' u ($1 / $2):5 title "Measured Capacity" with linespoints

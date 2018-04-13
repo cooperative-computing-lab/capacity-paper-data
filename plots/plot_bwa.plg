@@ -1,0 +1,18 @@
+set terminal pdfcairo size 3.75,2.25 font 'Helvetica,12'
+set mono
+set output
+
+#BWA
+set title "Dynamically Scaling BWA"
+set xlabel "Tasks Completed"
+set ylabel "Number of Workers"
+set xtics rotate by -90
+set key auto
+set yrange[0:25]
+set xrange[0:1010]
+#set arrow from 575,0 to 575,70 nohead lc rgb 'red' lw 3
+#set label "Border of Task Types" at 580,10
+
+plot './bwa/bwa_run.dat' using 3:4 title "Workers Connected" with lines,\
+	 '' u 3:5 title "Capacity" with lines
+

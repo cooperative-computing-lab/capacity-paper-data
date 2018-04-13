@@ -1,0 +1,17 @@
+set terminal pdfcairo size 3.75,2.25 font 'Helvetica,12'
+set mono
+set output
+
+#Low # of Workers
+set title "Capacity of a Two-Step Application"
+
+set ylabel "Capacity of Workers"
+set xlabel "Tasks Completed"
+set key bottom right
+
+set xtics rotate by -45
+set yrange [0:25]
+set xrange [1:100]
+
+plot './varied/full_run.dat' using 1:2 title "t_e / t_i_o" with lines,\
+     '' u 1:3 title "Capacity" with lines

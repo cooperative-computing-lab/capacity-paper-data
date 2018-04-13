@@ -1,0 +1,15 @@
+set terminal pdfcairo size 3.75,2.25 font 'Helvetica,12'
+set mono
+set output
+
+#SHRIMP
+set title "Dynamically Scaling HECIL"
+set xlabel "Tasks Completed"
+set ylabel "Number of Workers"
+set xtics rotate by -90
+set key top right
+set yrange[1:40]
+set xrange[0:10000]
+
+plot './hecil/hecil_run.dat' using 3:4 title "Workers Connected" with lines,\
+	 '' u 3:5 title "Capacity" with lines

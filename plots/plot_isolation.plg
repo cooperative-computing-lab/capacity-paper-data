@@ -1,0 +1,17 @@
+set terminal pdfcairo size 3.75,2.25 font 'Helvetica,12'
+set mono
+set output
+
+#Low # of Workers
+set title "Effect of a Busy Resource on Capacity"
+
+set ylabel "Capacity of Workers"
+set xlabel "Tasks Completed"
+set key bottom
+
+set xtics rotate by -45
+set yrange [0:30]
+set xrange [1:100]
+
+plot './isolation/wq_test.dat' using 2:14 title "Measured Capacity" with lines,\
+     '' u 2:(25) title "Anticipated Capacity" with lines

@@ -1,0 +1,20 @@
+set terminal pdfcairo size 3.75,2.25 font 'Helvetica,12'
+set mono
+set output
+
+#BWA
+set title "Dynamically Scaling SHADHO"
+set xlabel "Time (s)"
+set ylabel "Number of Workers"
+set xtics rotate by -90
+set key bottom right width -8 vertical maxrows 2
+set yrange[1:]
+set xrange[0:3610]
+set logscale y
+#set arrow from 575,0 to 575,70 nohead lc rgb 'red' lw 3
+#set label "Border of Task Types" at 580,10
+
+plot './shadho/shadho_run.dat' using 1:5 title "Workers Connected" with lines,\
+	 '' u 1:4 title "Workers Requested" with lines,\
+	 '' u 1:3 title "Capacity" with lines
+

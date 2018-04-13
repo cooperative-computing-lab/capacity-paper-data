@@ -1,0 +1,17 @@
+set terminal pdfcairo size 3.75,2.25 font 'Helvetica,12'
+set mono
+set output
+
+#SHRIMP
+set title "Dynamically Scaling SHRiMP"
+set xlabel "Tasks Completed"
+set ylabel "Number of Workers"
+set xtics rotate by -90
+set key bottom left
+set yrange[1:60000]
+set xrange[0:5150]
+set logscale y
+
+plot filename using 2:4 title "Workers Connected" with lines,\
+	 filename u 2:14 title "Capacity" with lines
+

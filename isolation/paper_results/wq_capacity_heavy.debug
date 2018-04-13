@@ -1,0 +1,679 @@
+2018/03/22 10:51:57.09 [9767] tcp: listening on port 9000
+2018/03/22 10:51:57.09 [9767] wq: Using default fast abort multiplier for 'default'.
+2018/03/22 10:51:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:51:57.09 [9767] wq: Work Queue is listening on port 9000.
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: log enabled and is being written to wq_capacity_heavy.wqlog
+2018/03/22 10:52:57.09 [9767] wq: Task 1 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 2 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 3 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 4 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 5 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 6 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 7 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 8 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 9 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 10 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 11 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 12 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 13 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 14 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 15 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 16 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 17 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 18 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.09 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.09 [9767] wq: Task 19 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 20 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 21 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 22 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 23 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 24 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 25 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 26 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 27 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 28 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 29 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 30 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 31 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 32 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 33 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 34 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 35 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 36 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 37 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 38 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 39 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 40 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 41 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 42 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 43 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 44 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 45 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 46 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 47 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 48 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 49 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 50 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 51 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 52 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 53 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 54 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 55 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 56 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 57 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 58 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 59 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 60 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 61 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 62 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 63 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 64 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 65 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 66 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 67 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 68 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 69 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 70 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 71 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 72 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 73 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 74 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 75 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 76 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 77 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 78 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 79 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 80 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 81 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 82 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 83 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 84 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 85 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 86 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 87 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 88 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 89 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 90 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 91 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 92 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 93 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 94 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 95 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 96 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 97 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 98 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.10 [9767] wq: Task 99 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.10 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 100 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 101 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 102 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 103 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 104 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 105 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 106 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 107 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 108 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 109 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 110 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 111 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 112 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 113 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 114 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 115 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 116 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 117 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 118 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 119 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 120 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 121 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 122 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 123 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 124 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 125 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 126 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 127 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 128 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 129 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 130 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 131 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 132 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 133 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 134 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 135 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 136 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 137 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 138 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 139 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 140 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 141 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 142 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 143 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.11 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.11 [9767] wq: Task 144 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 145 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 146 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 147 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 148 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 149 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 150 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 151 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 152 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 153 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 154 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 155 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 156 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 157 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 158 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 159 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 160 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 161 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 162 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 163 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 164 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 165 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 166 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 167 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 168 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 169 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 170 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 171 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 172 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 173 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 174 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 175 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 176 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 177 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 178 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 179 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 180 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 181 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 182 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 183 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 184 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.12 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.12 [9767] wq: Task 185 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 186 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 187 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 188 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 189 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 190 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 191 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 192 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 193 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 194 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 195 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 196 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 197 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 198 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 199 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Task 200 state change: UNKNOWN (0) to WAITING (1)
+2018/03/22 10:52:57.13 [9767] wq: workers status -- total: 0, active: 0, available: 0.
+2018/03/22 10:52:57.13 [9767] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2018/03/22 10:52:57.13 [9767] dns: looking up name catalog.cse.nd.edu
+2018/03/22 10:52:57.13 [9767] dns: catalog.cse.nd.edu is 129.74.152.166
+2018/03/22 10:52:57.13 [9767] debug: sending update to catalog.cse.nd.edu(129.74.152.166):9097
+2018/03/22 10:52:57.13 [9767] dns: looking up name backup-catalog.cse.nd.edu
+2018/03/22 10:52:57.13 [9767] dns: backup-catalog.cse.nd.edu is 129.74.247.43
+2018/03/22 10:52:57.13 [9767] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097
+2018/03/22 10:53:15.00 [9767] tcp: got connection from 10.32.74.186 port 35676
+2018/03/22 10:53:15.00 [9767] wq: worker 10.32.74.186:35676 connected
+2018/03/22 10:53:15.00 [9767] wq: 1 workers are connected in total now
+2018/03/22 10:53:15.00 [9767] wq: rx from unknown (10.32.74.186:35676): workqueue 7 disc24.crc.nd.edu Linux x86_64 7.0.0
+2018/03/22 10:53:15.00 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) running CCTools version 7.0.0 on Linux (operating system) with architecture x86_64 is ready
+2018/03/22 10:53:15.00 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): info worker-id worker-3513331ad8d7e500f74e0415b1e02ad2
+2018/03/22 10:53:15.00 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): alive
+2018/03/22 10:53:15.00 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): resource workers 1 1 1
+2018/03/22 10:53:15.00 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): resource disk 20380 20380 20380
+2018/03/22 10:53:15.01 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): resource memory 10140 10140 10140
+2018/03/22 10:53:15.01 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): resource gpus 0 0 0
+2018/03/22 10:53:15.01 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): resource cores 1 1 1
+2018/03/22 10:53:15.01 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): resource tag 0
+2018/03/22 10:53:15.01 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) needs file in_2.dat bytes 0:10240000000 as 'file-1-868dcbc63e9466613236871cf50a289c-in_2.dat'
+2018/03/22 10:53:15.01 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) using conservative default average transfer rate of 1.00 MB/s
+2018/03/22 10:53:15.01 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) will try up to 97656 seconds to transfer this 10240.00 MB file.
+2018/03/22 10:53:15.01 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): put file-1-868dcbc63e9466613236871cf50a289c-in_2.dat 10240000000 0644 0
+2018/03/22 10:54:55.06 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) received 10240.00 MB in 100.05s (102.35s MB/s) average 102.35s MB/s
+2018/03/22 10:54:55.06 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): task 1
+2018/03/22 10:54:55.06 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): cmd 49
+2018/03/22 10:54:55.06 [9767] wq: dd if=in_2.dat of=out_0.dat bs=4096 count=2500000
+2018/03/22 10:54:55.06 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): category default
+2018/03/22 10:54:55.06 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): cores 1
+2018/03/22 10:54:55.06 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): memory 10140
+2018/03/22 10:54:55.06 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): disk 20380
+2018/03/22 10:54:55.06 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): gpus 0
+2018/03/22 10:54:55.06 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): end_time 18446744073709551615
+2018/03/22 10:54:55.06 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): wall_time 18446744073709551615
+2018/03/22 10:54:55.06 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): infile file-1-868dcbc63e9466613236871cf50a289c-in_2.dat in_2.dat 0
+2018/03/22 10:54:55.06 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): outfile file-2-6ecdb7bbc2a0115a473161fd40c8cf28-out_0.dat out_0.dat 0
+2018/03/22 10:54:55.06 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): end
+2018/03/22 10:54:55.06 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) busy on 'dd if=in_2.dat of=out_0.dat bs=4096 count=2500000'
+2018/03/22 10:54:55.06 [9767] wq: Task 1 state change: WAITING (1) to RUNNING (2)
+2018/03/22 10:54:55.06 [9767] wq: workers status -- total: 1, active: 1, available: 1.
+2018/03/22 10:54:55.06 [9767] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2018/03/22 10:54:55.06 [9767] debug: sending update to catalog.cse.nd.edu(129.74.152.166):9097
+2018/03/22 10:54:55.06 [9767] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097
+2018/03/22 10:54:55.06 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): info end_of_resource_update 0
+2018/03/22 10:54:55.06 [9767] tcp: got connection from 10.32.74.186 port 35680
+2018/03/22 10:54:55.06 [9767] wq: worker 10.32.74.186:35680 connected
+2018/03/22 10:54:55.06 [9767] wq: 2 workers are connected in total now
+2018/03/22 10:54:55.06 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): info tasks_running 0
+2018/03/22 10:54:55.06 [9767] wq: rx from unknown (10.32.74.186:35680): workqueue 7 disc24.crc.nd.edu Linux x86_64 7.0.0
+2018/03/22 10:54:55.06 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) running CCTools version 7.0.0 on Linux (operating system) with architecture x86_64 is ready
+2018/03/22 10:54:55.06 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): info worker-id worker-14b12a78e08b27c26eb17a136bb1b9b8
+2018/03/22 10:54:55.06 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): alive
+2018/03/22 10:54:55.06 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): resource workers 1 1 1
+2018/03/22 10:54:55.06 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): resource disk 20380 20380 20380
+2018/03/22 10:54:55.06 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): resource memory 10140 10140 10140
+2018/03/22 10:54:55.07 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): resource gpus 0 0 0
+2018/03/22 10:54:55.07 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): resource cores 1 1 1
+2018/03/22 10:54:55.07 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): resource tag 0
+2018/03/22 10:54:55.07 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) needs file in_2.dat bytes 0:10240000000 as 'file-3-868dcbc63e9466613236871cf50a289c-in_2.dat'
+2018/03/22 10:54:55.07 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) using overall queue average transfer rate of 97.59 MB/s
+2018/03/22 10:54:55.07 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) will try up to 1000 seconds to transfer this 10240.00 MB file.
+2018/03/22 10:54:55.07 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): put file-3-868dcbc63e9466613236871cf50a289c-in_2.dat 10240000000 0644 0
+2018/03/22 10:57:39.89 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) received 10240.00 MB in 164.82s (62.13s MB/s) average 62.13s MB/s
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): task 2
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): cmd 49
+2018/03/22 10:57:39.89 [9767] wq: dd if=in_2.dat of=out_1.dat bs=4096 count=2500000
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): category default
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): cores 1
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): memory 10140
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): disk 20380
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): gpus 0
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): end_time 18446744073709551615
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): wall_time 18446744073709551615
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): infile file-3-868dcbc63e9466613236871cf50a289c-in_2.dat in_2.dat 0
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): outfile file-4-eeda74548048cba5f43edb1a6452157f-out_1.dat out_1.dat 0
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): end
+2018/03/22 10:57:39.89 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) busy on 'dd if=in_2.dat of=out_1.dat bs=4096 count=2500000'
+2018/03/22 10:57:39.89 [9767] wq: Task 2 state change: WAITING (1) to RUNNING (2)
+2018/03/22 10:57:39.89 [9767] wq: workers status -- total: 2, active: 2, available: 1.
+2018/03/22 10:57:39.89 [9767] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2018/03/22 10:57:39.89 [9767] debug: sending update to catalog.cse.nd.edu(129.74.152.166):9097
+2018/03/22 10:57:39.89 [9767] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097
+2018/03/22 10:57:39.89 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): info tasks_running 1
+2018/03/22 10:57:39.89 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): info end_of_resource_update 0
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): check
+2018/03/22 10:57:39.89 [9767] wq: Sent keepalive check to worker disc24.crc.nd.edu (10.32.74.186:35676)
+2018/03/22 10:57:39.89 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): check
+2018/03/22 10:57:39.89 [9767] wq: Sent keepalive check to worker disc24.crc.nd.edu (10.32.74.186:35680)
+2018/03/22 10:57:39.89 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): info tasks_running 0
+2018/03/22 10:57:39.89 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): alive
+2018/03/22 10:57:39.89 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): info tasks_running 1
+2018/03/22 10:57:39.92 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): info tasks_running 1
+2018/03/22 10:57:39.92 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): alive
+2018/03/22 10:57:39.92 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): info tasks_running 1
+2018/03/22 10:58:39.07 [9767] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2018/03/22 10:58:39.07 [9767] dns: looking up name catalog.cse.nd.edu
+2018/03/22 10:58:39.07 [9767] dns: catalog.cse.nd.edu is 129.74.152.166
+2018/03/22 10:58:39.07 [9767] debug: sending update to catalog.cse.nd.edu(129.74.152.166):9097
+2018/03/22 10:58:39.07 [9767] dns: looking up name backup-catalog.cse.nd.edu
+2018/03/22 10:58:39.07 [9767] dns: backup-catalog.cse.nd.edu is 129.74.247.43
+2018/03/22 10:58:39.07 [9767] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097
+2018/03/22 10:59:39.23 [9767] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2018/03/22 10:59:39.23 [9767] debug: sending update to catalog.cse.nd.edu(129.74.152.166):9097
+2018/03/22 10:59:39.23 [9767] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097
+2018/03/22 10:59:40.23 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): check
+2018/03/22 10:59:40.23 [9767] wq: Sent keepalive check to worker disc24.crc.nd.edu (10.32.74.186:35676)
+2018/03/22 10:59:40.23 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): check
+2018/03/22 10:59:40.23 [9767] wq: Sent keepalive check to worker disc24.crc.nd.edu (10.32.74.186:35680)
+2018/03/22 10:59:40.23 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): alive
+2018/03/22 10:59:40.23 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): info tasks_running 1
+2018/03/22 10:59:40.23 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): alive
+2018/03/22 10:59:40.23 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): info tasks_running 1
+2018/03/22 10:59:48.61 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): available_results
+2018/03/22 10:59:48.61 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): send_results -1
+2018/03/22 10:59:48.61 [9767] wq: Reading result(s) from disc24.crc.nd.edu (10.32.74.186:35676)
+2018/03/22 10:59:48.61 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): result 0 0 98 293517449 1
+2018/03/22 10:59:48.61 [9767] wq: Receiving stdout of task 1 (size: 98 bytes) from 10.32.74.186:35676 (disc24.crc.nd.edu) ...
+2018/03/22 10:59:48.61 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) using worker's observed average transfer rate of 97.61 MB/s
+2018/03/22 10:59:48.61 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) will try up to 10 seconds to transfer this 0.00 MB file.
+2018/03/22 10:59:48.61 [9767] wq: Retrieved 98 bytes from disc24.crc.nd.edu (10.32.74.186:35676)
+2018/03/22 10:59:48.61 [9767] wq: Task 1 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2018/03/22 10:59:48.61 [9767] wq: workers status -- total: 2, active: 2, available: 0.
+2018/03/22 10:59:48.61 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): info tasks_running 0
+2018/03/22 10:59:48.61 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): end
+2018/03/22 10:59:48.61 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) sending back file-2-6ecdb7bbc2a0115a473161fd40c8cf28-out_0.dat to out_0.dat
+2018/03/22 10:59:48.61 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): get file-2-6ecdb7bbc2a0115a473161fd40c8cf28-out_0.dat 1
+2018/03/22 10:59:48.61 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): file file-2-6ecdb7bbc2a0115a473161fd40c8cf28-out_0.dat 10240000000
+2018/03/22 10:59:48.61 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) using worker's observed average transfer rate of 97.61 MB/s
+2018/03/22 10:59:48.61 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) will try up to 1000 seconds to transfer this 10240.00 MB file.
+2018/03/22 10:59:48.61 [9767] wq: Receiving file out_0.dat (size: 10240000000 bytes) from 10.32.74.186:35676 (disc24.crc.nd.edu) ...
+2018/03/22 11:03:36.96 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): end
+2018/03/22 11:03:36.96 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) sent 10240.00 MB in 228.35s (44.84s MB/s) average 62.36s MB/s
+2018/03/22 11:03:36.96 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): kill 1
+2018/03/22 11:03:36.96 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): unlink file-1-868dcbc63e9466613236871cf50a289c-in_2.dat
+2018/03/22 11:03:36.96 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): unlink file-2-6ecdb7bbc2a0115a473161fd40c8cf28-out_0.dat
+2018/03/22 11:03:36.96 [9767] wq: Task 1 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2018/03/22 11:03:36.96 [9767] wq: workers status -- total: 2, active: 2, available: 0.
+2018/03/22 11:03:36.96 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) done in 621.95s total tasks 1 average 293.52s
+2018/03/22 11:03:36.96 [9767] wq: Task 1 state change: RETRIEVED (4) to DONE (5)
+2018/03/22 11:03:36.96 [9767] wq: 
+CAPACITY: 1521731016 293517449 328400318 35021 1 2
+2018/03/22 11:03:36.96 [9767] wq: workers status -- total: 2, active: 2, available: 1.
+2018/03/22 11:03:36.96 [9767] wq: 
+CAPACITY: 1521731016 293517449 328400318 35021 1 2
+2018/03/22 11:03:36.96 [9767] wq: workers status -- total: 2, active: 2, available: 1.
+2018/03/22 11:03:46.87 [9767] wq: 
+CAPACITY: 1521731026 293517449 328400318 35021 1 2
+2018/03/22 11:03:46.87 [9767] wq: 
+CAPACITY: 1521731026 293517449 328400318 35021 1 2
+2018/03/22 11:03:46.87 [9767] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2018/03/22 11:03:46.87 [9767] dns: looking up name catalog.cse.nd.edu
+2018/03/22 11:03:46.87 [9767] dns: catalog.cse.nd.edu is 129.74.152.166
+2018/03/22 11:03:46.87 [9767] debug: sending update to catalog.cse.nd.edu(129.74.152.166):9097
+2018/03/22 11:03:46.87 [9767] dns: looking up name backup-catalog.cse.nd.edu
+2018/03/22 11:03:46.87 [9767] dns: backup-catalog.cse.nd.edu is 129.74.247.43
+2018/03/22 11:03:46.87 [9767] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097
+2018/03/22 11:03:46.87 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): available_results
+2018/03/22 11:03:46.87 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): send_results -1
+2018/03/22 11:03:46.87 [9767] wq: Reading result(s) from disc24.crc.nd.edu (10.32.74.186:35680)
+2018/03/22 11:03:46.87 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): result 0 0 98 316509314 2
+2018/03/22 11:03:46.87 [9767] wq: Receiving stdout of task 2 (size: 98 bytes) from 10.32.74.186:35680 (disc24.crc.nd.edu) ...
+2018/03/22 11:03:46.87 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) using worker's observed average transfer rate of 59.25 MB/s
+2018/03/22 11:03:46.87 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) will try up to 10 seconds to transfer this 0.00 MB file.
+2018/03/22 11:03:46.87 [9767] wq: Retrieved 98 bytes from disc24.crc.nd.edu (10.32.74.186:35680)
+2018/03/22 11:03:46.87 [9767] wq: Task 2 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2018/03/22 11:03:46.87 [9767] wq: 
+CAPACITY: 1521731026 293517449 328400318 35021 1 2
+2018/03/22 11:03:46.87 [9767] wq: workers status -- total: 2, active: 2, available: 1.
+2018/03/22 11:03:46.87 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): info tasks_running 0
+2018/03/22 11:03:46.87 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): end
+2018/03/22 11:03:46.87 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) sending back file-4-eeda74548048cba5f43edb1a6452157f-out_1.dat to out_1.dat
+2018/03/22 11:03:46.87 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): get file-4-eeda74548048cba5f43edb1a6452157f-out_1.dat 1
+2018/03/22 11:03:46.87 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): file file-4-eeda74548048cba5f43edb1a6452157f-out_1.dat 10240000000
+2018/03/22 11:03:46.87 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) using worker's observed average transfer rate of 59.25 MB/s
+2018/03/22 11:03:46.87 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) will try up to 1648 seconds to transfer this 10240.00 MB file.
+2018/03/22 11:03:46.87 [9767] wq: Receiving file out_1.dat (size: 10240000000 bytes) from 10.32.74.186:35680 (disc24.crc.nd.edu) ...
+2018/03/22 11:05:15.46 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): end
+2018/03/22 11:05:15.46 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) sent 10240.00 MB in 88.59s (115.59s MB/s) average 80.82s MB/s
+2018/03/22 11:05:15.46 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): kill 2
+2018/03/22 11:05:15.46 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): unlink file-3-868dcbc63e9466613236871cf50a289c-in_2.dat
+2018/03/22 11:05:15.46 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): unlink file-4-eeda74548048cba5f43edb1a6452157f-out_1.dat
+2018/03/22 11:05:15.46 [9767] wq: Task 2 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2018/03/22 11:05:15.46 [9767] wq: 
+CAPACITY: 1521731115 293517449 328400318 35021 1 2
+2018/03/22 11:05:15.46 [9767] wq: workers status -- total: 2, active: 2, available: 1.
+2018/03/22 11:05:15.46 [9767] wq: 
+CAPACITY: 1521731115 293517449 328400318 35021 1 2
+2018/03/22 11:05:15.46 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) done in 620.39s total tasks 1 average 316.51s
+2018/03/22 11:05:15.46 [9767] wq: Task 2 state change: RETRIEVED (4) to DONE (5)
+2018/03/22 11:05:15.46 [9767] wq: 
+CAPACITY: 1521731115 316509314 253411011 50473901 2 2
+2018/03/22 11:05:15.46 [9767] wq: workers status -- total: 2, active: 2, available: 2.
+2018/03/22 11:05:15.46 [9767] wq: 
+CAPACITY: 1521731115 316509314 253411011 50473901 2 2
+2018/03/22 11:05:15.46 [9767] wq: workers status -- total: 2, active: 2, available: 2.
+2018/03/22 11:05:27.70 [9767] wq: 
+CAPACITY: 1521731127 316509314 253411011 50473901 2 2
+2018/03/22 11:05:27.70 [9767] wq: 
+CAPACITY: 1521731127 316509314 253411011 50473901 2 2
+2018/03/22 11:05:27.70 [9767] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2018/03/22 11:05:27.70 [9767] debug: sending update to catalog.cse.nd.edu(129.74.152.166):9097
+2018/03/22 11:05:27.70 [9767] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097
+2018/03/22 11:05:27.70 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) needs file in_2.dat bytes 0:10240000000 as 'file-5-868dcbc63e9466613236871cf50a289c-in_2.dat'
+2018/03/22 11:05:27.70 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) using worker's observed average transfer rate of 77.07 MB/s
+2018/03/22 11:05:27.70 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) will try up to 1267 seconds to transfer this 10240.00 MB file.
+2018/03/22 11:05:27.70 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): put file-5-868dcbc63e9466613236871cf50a289c-in_2.dat 10240000000 0644 0
+2018/03/22 11:06:54.69 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) received 10240.00 MB in 86.99s (117.72s MB/s) average 90.25s MB/s
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): task 3
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): cmd 49
+2018/03/22 11:06:54.69 [9767] wq: dd if=in_2.dat of=out_2.dat bs=4096 count=2500000
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): category default
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): cores 1
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): memory 10140
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): disk 20380
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): gpus 0
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): end_time 18446744073709551615
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): wall_time 18446744073709551615
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): infile file-5-868dcbc63e9466613236871cf50a289c-in_2.dat in_2.dat 0
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): outfile file-6-941b6bbcab5557616b5eaa6eec1bd350-out_2.dat out_2.dat 0
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): end
+2018/03/22 11:06:54.69 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35680) busy on 'dd if=in_2.dat of=out_2.dat bs=4096 count=2500000'
+2018/03/22 11:06:54.69 [9767] wq: Task 3 state change: WAITING (1) to RUNNING (2)
+2018/03/22 11:06:54.69 [9767] wq: 
+CAPACITY: 1521731214 316509314 253411011 50473901 2 2
+2018/03/22 11:06:54.69 [9767] wq: workers status -- total: 2, active: 2, available: 2.
+2018/03/22 11:06:54.69 [9767] wq: 
+CAPACITY: 1521731214 316509314 253411011 50473901 2 2
+2018/03/22 11:06:54.69 [9767] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2018/03/22 11:06:54.69 [9767] debug: sending update to catalog.cse.nd.edu(129.74.152.166):9097
+2018/03/22 11:06:54.69 [9767] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097
+2018/03/22 11:06:54.69 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) needs file in_2.dat bytes 0:10240000000 as 'file-7-868dcbc63e9466613236871cf50a289c-in_2.dat'
+2018/03/22 11:06:54.69 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) using worker's observed average transfer rate of 59.47 MB/s
+2018/03/22 11:06:54.69 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) will try up to 1641 seconds to transfer this 10240.00 MB file.
+2018/03/22 11:06:54.69 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): put file-7-868dcbc63e9466613236871cf50a289c-in_2.dat 10240000000 0644 0
+2018/03/22 11:09:16.24 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) received 10240.00 MB in 141.56s (72.34s MB/s) average 65.37s MB/s
+2018/03/22 11:09:16.24 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): task 4
+2018/03/22 11:09:16.24 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): cmd 49
+2018/03/22 11:09:16.24 [9767] wq: dd if=in_2.dat of=out_3.dat bs=4096 count=2500000
+2018/03/22 11:09:16.24 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): category default
+2018/03/22 11:09:16.24 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): cores 1
+2018/03/22 11:09:16.24 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): memory 10140
+2018/03/22 11:09:16.24 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): disk 20380
+2018/03/22 11:09:16.24 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): gpus 0
+2018/03/22 11:09:16.24 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): end_time 18446744073709551615
+2018/03/22 11:09:16.24 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): wall_time 18446744073709551615
+2018/03/22 11:09:16.24 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): infile file-7-868dcbc63e9466613236871cf50a289c-in_2.dat in_2.dat 0
+2018/03/22 11:09:16.24 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): outfile file-8-eaadc8fcf32abde500599b81df369855-out_3.dat out_3.dat 0
+2018/03/22 11:09:16.24 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): end
+2018/03/22 11:09:16.24 [9767] wq: disc24.crc.nd.edu (10.32.74.186:35676) busy on 'dd if=in_2.dat of=out_3.dat bs=4096 count=2500000'
+2018/03/22 11:09:16.24 [9767] wq: Task 4 state change: WAITING (1) to RUNNING (2)
+2018/03/22 11:09:16.24 [9767] wq: 
+CAPACITY: 1521731356 316509314 253411011 50473901 2 2
+2018/03/22 11:09:16.25 [9767] wq: workers status -- total: 2, active: 2, available: 1.
+2018/03/22 11:09:16.25 [9767] wq: 
+CAPACITY: 1521731356 316509314 253411011 50473901 2 2
+2018/03/22 11:09:16.25 [9767] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2018/03/22 11:09:16.25 [9767] dns: looking up name catalog.cse.nd.edu
+2018/03/22 11:09:16.25 [9767] dns: catalog.cse.nd.edu is 129.74.152.166
+2018/03/22 11:09:16.25 [9767] debug: sending update to catalog.cse.nd.edu(129.74.152.166):9097
+2018/03/22 11:09:16.25 [9767] dns: looking up name backup-catalog.cse.nd.edu
+2018/03/22 11:09:16.25 [9767] dns: backup-catalog.cse.nd.edu is 129.74.247.43
+2018/03/22 11:09:16.25 [9767] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097
+2018/03/22 11:09:16.25 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): info tasks_running 1
+2018/03/22 11:09:16.25 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35676): check
+2018/03/22 11:09:16.25 [9767] wq: Sent keepalive check to worker disc24.crc.nd.edu (10.32.74.186:35676)
+2018/03/22 11:09:16.25 [9767] wq: tx to disc24.crc.nd.edu (10.32.74.186:35680): check
+2018/03/22 11:09:16.25 [9767] wq: Sent keepalive check to worker disc24.crc.nd.edu (10.32.74.186:35680)
+2018/03/22 11:09:16.25 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): alive
+2018/03/22 11:09:16.25 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35680): info tasks_running 1
+2018/03/22 11:09:16.31 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): info tasks_running 1
+2018/03/22 11:09:16.31 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): alive
+2018/03/22 11:09:16.31 [9767] wq: rx from disc24.crc.nd.edu (10.32.74.186:35676): info tasks_running 1

@@ -1,0 +1,17 @@
+set terminal pdfcairo size 3.75,2.25 font 'Helvetica,12'
+set mono
+set output
+
+#Scale Up
+set title "Scaling Down an Over-Provisioned Workflow"
+
+set ylabel "Number of Workers"
+set xlabel "Time (s)"
+set key bottom
+
+set xtics rotate by -45
+set xrange [0:900]
+set yrange [0:160]
+
+plot './synth_results/hi_workers.dat' using 1:2 title "Workers Connected" with lines,\
+     './synth_results/scaling_hi.dat' u 1:14 title "Calculated Capacity" with lines
