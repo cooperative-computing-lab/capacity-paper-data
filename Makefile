@@ -38,35 +38,35 @@ $(CCTOOLS) $(LIB): /usr/bin/git
 	cd ./cctools_source && ./configure --strict --tcp-low-port 9000 --tcp-high-port 9500 && make && make install
 
 #I/O ratio script
-$(RATIOS): /usr/bin/make ./ratios/Makefile
+$(RATIOS): $(CCTOOLS) $(LIB) /usr/bin/make ./ratios/Makefile
 	cd ./ratios && make
 
 #Stepped application script
-$(STEPPED): /usr/bin/make ./stepped/Makefile
+$(STEPPED): $(CCTOOLS) $(LIB) /usr/bin/make ./stepped/Makefile
 	cd ./stepped && make
 
 #Varied application script
-$(VARIED): /usr/bin/make ./varied/Makefile
+$(VARIED): $(CCTOOLS) $(LIB) /usr/bin/make ./varied/Makefile
 	cd ./varied && make
 
 #Provisioning test
-$(PROVISIONING): /usr/bin/make ./provisioning/Makefile
+$(PROVISIONING): $(CCTOOLS) $(LIB) /usr/bin/make ./provisioning/Makefile
 	cd ./provisioning && make
 
 #Isolation test
-$(ISOLATION): /usr/bin/make ./isolation/Makefile
+$(ISOLATION): $(CCTOOLS) $(LIB) /usr/bin/make ./isolation/Makefile
 	cd ./isolation && make
 
 #Scaling test
-$(SCALING): /usr/bin/make ./scaling/Makefile
+$(SCALING): $(CCTOOLS) $(LIB) /usr/bin/make ./scaling/Makefile
 	cd ./scaling && make
 
 #BWA
-$(BWA): /usr/bin/make ./bwa/Makefile
+$(BWA): $(CCTOOLS) $(LIB) /usr/bin/make ./bwa/Makefile
 	cd ./bwa && make
 
 #SHADHO
-$(SHADHO): /usr/bin/make ./shadho/Makefile
+$(SHADHO): $(CCTOOLS) $(LIB) /usr/bin/make ./shadho/Makefile
 	cd ./shadho && make
 
 #Plots
