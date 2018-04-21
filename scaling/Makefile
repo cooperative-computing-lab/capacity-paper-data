@@ -23,13 +23,13 @@ $(INPUT): /usr/bin/dd
 	dd if=/dev/zero of=in.dat bs=4096 count=25000
 
 scaling_lo.debug: /usr/bin/perl $(PROG) $(INPUT)
-	cp ../hi.dat .
-	cp ../cap.dat .
+	cp ../hi.conf .
+	cp ../cap.conf .
 	perl run_scaling.pl --cores 1 --memory 1024 --disk 2048 --workers 1 --mode 1
 
 scaling_hi.debug: /usr/bin/perl $(PROG) $(INPUT)
-	cp ../hi.dat .
-	cp ../cap.dat .
+	cp ../hi.conf .
+	cp ../cap.conf .
 	perl run_scaling.pl --cores 1 --memory 1024 --disk 2048 --workers 50 --mode 2
 
 scaling_lo.dat: /usr/bin/perl $(PERL) $(DATA)

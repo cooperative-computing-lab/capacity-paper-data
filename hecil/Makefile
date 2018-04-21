@@ -34,8 +34,8 @@ index.err: /usr/bin/python /usr/bin/perl ref.fasta query.fastq $(MAKEFLOW)
 	./bwa index ref.fasta 2> index.err
 
 hecil_run.debug: /usr/bin/perl $(PERL) $(MAKEFLOW) $(INPUT) index.err
-	cp ../hi.dat .
-	cp ../cap.dat .
+	cp ../hi.conf .
+	cp ../cap.conf .
 	perl ./hecil_test.pl --cores 1 --memory 8192 --disk 8192
 
 hecil_run.dat: /usr/bin/perl $(PERL) hecil_run.debug
