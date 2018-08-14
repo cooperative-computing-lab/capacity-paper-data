@@ -101,5 +101,5 @@ sub print_help {
 
 sub calculate_capacity {
 
-	$cumulative_capacity = ($alpha * (1 + $capacity)) + ((1 - $alpha) * $cumulative_capacity);
+	$cumulative_capacity = ($alpha * ($capacity)) + ((1 - $alpha) * $cumulative_capacity);
 }

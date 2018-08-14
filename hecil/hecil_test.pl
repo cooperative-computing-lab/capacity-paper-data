@@ -17,13 +17,13 @@ Required:
     --cores   <integer>        Sets the number of cores per worker.
     --memory  <integer>	       Sets the amount of memory in bytes per worker.
     --disk    <integer>	       Sets the amount of disk in bytes per worker.
-
+    --mode    <integer>	       Sets whether capacity is used.
 Optional:
     --help                     Display this message.
 
 Example Usage:
 
-    perl hecil_test.pl --cores 1 --memory 4096 --disk 8192
+    perl hecil_test.pl --cores 1 --memory 4096 --disk 8192 --mode 1
 
 ";
 
@@ -33,6 +33,7 @@ try {
         "cores=s" => \$OPT{cores},
         "memory=s" => \$OPT{memory},
         "disk=s" => \$OPT{disk},
+        "mode=s" => \$OPT{mode},
         "help|?" => sub {print $usage; exit(0)}
     );
 }
@@ -45,6 +46,7 @@ catch Error::Simple with {
 my $cores = $OPT{cores};
 my $memory = $OPT{memory};
 my $disk = $OPT{disk};
+my $mode = $OPT{mode};
 my $err = 0;
 
 if(!$cores) { print(STDERR "Missing --cores option.\n"); $err++; }
@@ -58,8 +60,12 @@ if($err) {
 my $usr = $ENV{USER};
 my $result = 0;
 
-$result = system("work_queue_factory -T condor -N hecil_capacity -c --cores $cores --memory $memory --disk $disk -t 90 --factory-timeout 90 --workers-per-cycle 0 -C ./hi.conf -d all -o ./hecil.factory.debug & ( sleep 900 && cp ./cap.conf ./hi.conf ) &");
-
+if($mode) {
+	$result = system("work_queue_factory -T condor -N hecil_capacity -c --cores $cores --memory $memory --disk $disk -t 3600 --factory-timeout 90 --workers-per-cycle 0 -C ./hi.conf -d all -o ./hecil.factory.debug & ( sleep 900 && cp ./cap.conf ./hi.conf ) &");
+}
+else {
+	$result = system("work_queue_factory -T condor -N hecil_capacity --cores $cores --memory $memory --disk $disk -t 3600 --factory-timeout 90 --workers-per-cycle 0 -C ./hi.conf -d all -o ./hecil.factory.debug & ( sleep 900 && cp ./cap.conf ./hi.conf ) &");
+}
 $result = system("makeflow -T wq -N hecil_capacity ./hecil.makeflow --debug-rotate-max 0 -d all -o ./hecil_run.debug");
 
 system("ps -AF | grep \"$usr\" > ./factory_shutdown.txt");

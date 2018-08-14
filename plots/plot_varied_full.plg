@@ -7,11 +7,14 @@ set title "Capacity of a Two-Step Application"
 
 set ylabel "Capacity of Workers"
 set xlabel "Tasks Completed"
-set key bottom right
+#set key bottom right
+set key top left
 
 set xtics rotate by -45
-set yrange [0:25]
+set yrange [1:25]
 set xrange [1:100]
 
 plot './varied/full_run.dat' using 1:2 title "t_e / t_i_o" with lines,\
-     '' u 1:3 title "Capacity" with lines
+     './varied/full_run_lo_alpha.dat' u 1:3 title "0.01" with lines,\
+     './varied/full_run.dat' u 1:3 title "0.05" with lines,\
+     './varied/full_run_hi_alpha.dat' u 1:3 title "0.10" with lines

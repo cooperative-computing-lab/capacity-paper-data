@@ -7,10 +7,10 @@ set title "Capacity of a Bimodal Application"
 
 set ylabel "Capacity of Workers"
 set xlabel "Tasks Completed"
-set key bottom right
+set key below horizontal right
 
 set xtics rotate by -45
-set yrange [0:25]
+set yrange [1:25]
 set xrange [1:100]
 
 plot './varied/ab_run.dat' using 1:2 title "t_e / t_i_o" with lines,\

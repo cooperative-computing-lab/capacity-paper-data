@@ -85,7 +85,7 @@ while(my $line = <INPUT>) {
     if($line =~ m/ENGAGE:\s+(?<start_time>\d+)/) {
         $start = $+{start_time};
     }
-    next unless $line =~ m/CAPACITY:\s+(?<timestamp>\d+)\s+(?<exe>\d+)\s+(?<io>\d+)\s+(?<master>\d+)\s+(?<capacity>\d+)\s+(?<tasks>\d+)\s+(?<workers>\d+)*/ and $+{tasks} != $tasks;
+    next unless $line =~ m/.*capacity:\s+(?<timestamp>\d+)\s+(?<exe>\d+)\s+(?<io>\d+)\s+(?<master>\d+)\s+(?<capacity>\d+)\s+(?<tasks>\d+)\s+(?<workers>\d+)*/ and $+{tasks} != $tasks;
 
     $inst = ($+{exe}/(($+{io} + $+{master}) * 1.0) / ($cores * 1.0));
     $timestamp = $+{timestamp} - $start;

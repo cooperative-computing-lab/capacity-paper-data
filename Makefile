@@ -20,6 +20,7 @@ LIB = ./cctools_source/dttools/src/libdttools.a ./cctools_source/work_queue/src/
 PDF = ./ratios/ratios_plot.pdf \
 	  ./stepped/stepped_plot.pdf \
 	  ./varied/varied_full_plot.pdf \
+	  ./varied/varied_full_big_plot.pdf \
 	  ./varied/varied_ab_plot.pdf \
 	  ./provisioning/provisioning_model_plot.pdf \
 	  ./isolation/isolation_plot.pdf \
@@ -65,6 +66,10 @@ $(SCALING): $(CCTOOLS) $(LIB) /usr/bin/make ./scaling/Makefile
 $(BWA): $(CCTOOLS) $(LIB) /usr/bin/make ./bwa/Makefile
 	cd ./bwa && make
 
+#HECIL
+$(HECIL) : $(CCTOOLS) $(LIB) /usr/bin/make ./hecil/Makefile
+	cd ./hecil && make
+
 #SHADHO
 $(SHADHO): $(CCTOOLS) $(LIB) /usr/bin/make ./shadho/Makefile
 	cd ./shadho && make
@@ -100,8 +105,14 @@ shadho/shadho_plot.pdf: /usr/bin/gnuplot $(SHADHO)
 hecil/hecil_plot.pdf: /usr/bin/gnuplot $(HECIL)
 	gnuplot ./plots/plot_hecil.plg > ./hecil/hecil_plot.pdf
 
+hecil/hecil_plot_nocap.pdf: /usr/bin/gnuplot $(HECIL)
+	gnuplot ./plots/plot_hecil_nocap.plg > ./hecil/hecil_plot_nocap.pdf
+
 bwa/bwa_plot.pdf: /usr/bin/gnuplot $(BWA)
 	gnuplot ./plots/plot_bwa.plg > ./bwa/bwa_plot.pdf
+
+bwa/bwa_plot_nocap.pdf: /usr/bin/gnuplot $(BWA)
+	gnuplot ./plots/plot_bwa_nocap.plg > ./bwa/bwa_plot_nocap.pdf
 
 data: $(DATA)
 
@@ -119,7 +130,7 @@ isolation: isolation/isolation_plot.pdf
 
 scaling: $(SCALING)
 
-bwa: bwa/bwa_plot.pdf
+bwa: bwa/bwa_plot.pdf bwa/bwa_plot_nocap.pdf
 
 shadho: shadho/shadho_plot.pdf
 
