@@ -30,13 +30,13 @@ scaling_lo.debug: /usr/bin/perl $(PROG) $(INPUT)
 scaling_hi.debug: /usr/bin/perl $(PROG) $(INPUT)
 	cp ../hi.conf .
 	cp ../cap.conf .
-	perl run_scaling.pl --cores 1 --memory 1024 --disk 2048 --workers 50 --mode 2
+	perl run_scaling.pl --cores 1 --memory 1024 --disk 2048 --workers 150 --mode 2
 
 scaling_lo.dat: /usr/bin/perl $(PERL) $(DATA)
-	perl capacity_yank.pl --cores 1 --cap 25 --file ./scaling_lo.debug > ./scaling_lo.dat
+	perl capacity_yank.pl --cores 1 --cap 100 --workers 1 --file ./scaling_lo.debug > ./scaling_lo.dat
 
 scaling_hi.dat: /usr/bin/perl $(PERL) $(DATA)
-	perl capacity_yank.pl --cores 1 --cap 25 --file ./scaling_hi.debug > ./scaling_hi.dat
+	perl capacity_yank.pl --cores 1 --cap 100 --workers 1 --file ./scaling_hi.debug > ./scaling_hi.dat
 
 scaling.complete: $(DATA) scaling_hi.dat scaling_lo.dat
 	touch scaling.complete

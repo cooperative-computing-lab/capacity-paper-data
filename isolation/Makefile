@@ -8,7 +8,7 @@ LDDFLAGS = $(IQUOTE) $(L) $(l) -lm
 LOGS = ./wq_capacity_*.*
 LIB = ../cctools_source/dttools/src/libdttools.a ../cctools_source/work_queue/src/libwork_queue.a
 PROG = ./run_tasks ./run_heavy_tasks
-PERL = ./run_workers.pl ./isolation_test.pl ./capacity_yank.pl
+PERL = ./isolation_test.pl ./capacity_yank.pl
 INPUT = ./in.dat ./in_2.dat
 
 DATA = wq_capacity.debug \
@@ -30,8 +30,9 @@ in_2.dat: /usr/bin/dd
 wq_capacity_heavy.debug wq_capacity.debug: $(PROG) $(INPUT)
 	work_queue_factory -T condor -N wq_capacity -c --factory-timeout 90 --cores=1 --memory=2048 --disk=2048 --workers-per-cycle 0 &
 	work_queue_factory -T condor -N wq_capacity_heavy -w 1 -W 1 --factory-timeout 90 --cores=1 --memory=2048 --disk=2048 --workers-per-cycle 0 &
-	run_heavy_tasks 200 wq_capacity_heavy &
-	run_tasks 100 25 wq_capacity
+	./run_heavy_tasks 200 wq_capacity_heavy &
+	./run_tasks 100 25 wq_capacity
+	perl shutdown.pl
 
 wq_test.dat wq_heavy.dat: /usr/bin/perl $(PERL) $(DATA)
 	perl capacity_yank.pl --cores 1 --workers 1 --cap 25 --file ./wq_capacity.debug > ./wq_test.dat

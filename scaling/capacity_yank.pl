@@ -91,8 +91,11 @@ while(my $line = <INPUT>) {
     if($line =~ m/ENGAGE:\s+(?<start_time>\d+)/) {
         $start = $+{start_time};
     }
+    
+    #CAPACITY: 1539025009 25032562 934210 198620 25 8 33
     next unless $line =~ m/CAPACITY:\s+(?<timestamp>\d+)\s+(?<exe>\d+)\s+(?<io>\d+)\s+(?<master>\d+)\s+(?<tasks>\d+)\s+(?<waiting>\d+)\s+(?<workers>\d+)*/;
 
+    if($start == 0) { $start = $+{timestamp}; }
     $inst = ($+{exe}/(($+{io} + $+{master}) * 1.0) / ($cores * 1.0));
     $timestamp = $+{timestamp} - $start;
     $exec_c += $+{exe};

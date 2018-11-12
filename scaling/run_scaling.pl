@@ -68,19 +68,23 @@ my $result = 0;
 my $prev_workers_connected = 0;
 
 if($mode == 2) {
-	$result = system("work_queue_factory -T wq -N wq_capacity -c --cores $cores --memory $memory --disk $disk -t 90 --workers-per-cycle 0 -C ./hi.conf -d all -o ./scaling_$mode.factory.debug & ( sleep 300 && cp ./cap.conf ./hi.conf ) &");
+	$result = system("work_queue_factory -T condor -N wq_capacity -c --cores $cores --memory $memory --disk $disk -t 90 --workers-per-cycle 0 -C ./hi.conf -d all -o ./scaling_$mode.factory.debug & ( sleep 300 && cp ./cap.conf ./hi.conf ) &");
 }
 
 else {
-	$result = system("work_queue_factory -T wq -N wq_capacity -c --cores $cores --memory $memory --disk $disk -t 90 --workers-per-cycle 0 -d all -o ./scaling_$mode.factory.debug &");
+	$result = system("work_queue_factory -T condor -N wq_capacity -c --cores $cores --memory $memory --disk $disk -t 90 --workers-per-cycle 0 -d all -o ./scaling_$mode.factory.debug &");
 }
+
+print(STDERR "$result\n");
 
 if($mode == 1) {
-	$result = system("run_tasks 1000 25 scaling_lo");
+	$result = system("./run_tasks 1000 100 scaling_lo");
 }
 else {
-	$result = system("run_tasks 1000 25 scaling_hi");
+	$result = system("./run_tasks 1000 100 scaling_hi");
 }
+
+print(STDERR "$result\n");
 
 system("ps -AF | grep \"$usr\" > ./factory_shutdown.txt");
 my $i = 0;

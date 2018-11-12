@@ -1,0 +1,16 @@
+set terminal pdfcairo size 3.75,2.25 font 'Helvetica,12'
+set mono
+set output
+
+#BWA
+set title "Control Algorithm Scaling BWA"
+set xlabel "Tasks Completed"
+set ylabel "Number of Workers"
+set xtics rotate by -90
+set key auto
+set yrange[0:]
+set xrange[0:1010]
+
+plot './bwa/bwa_run_nocap.dat' using 3:4 title "Workers Connected" with lines,\
+	 './bwa/bwa_run.dat' u 3:5 title "Capacity" with lines
+
